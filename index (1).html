@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Dharmabakti</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #d62828;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #f77f00;
+      padding: 0.5rem 2rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .product, .gallery {
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .product h3 {
+      margin-top: 0;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 6px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, textarea, button {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #d62828;
+      color: white;
+      cursor: pointer;
+    }
+    .wa-button {
+      display: inline-block;
+      background-color: #25d366;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Toko Dharmabakti</h1>
+    <p>Pusat Elektronik & Peralatan Rumah Tangga</p>
+  </header>
+
+  <nav>
+    <a href="#">Beranda</a>
+    <a href="#produk">Produk</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#pesan">Pesan</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <div class="container">
+    <section id="produk">
+      <h2>Produk Unggulan</h2>
+      <div class="product">
+        <h3>Kipas Angin</h3>
+        <p>Desain modern, hemat listrik, dan tahan lama. Tersedia berbagai ukuran.</p>
+      </div>
+      <div class="product">
+        <h3>Dispenser</h3>
+        <p>Dispenser panas & dingin, cocok untuk rumah maupun kantor.</p>
+      </div>
+      <div class="product">
+        <h3>Setrika Uap</h3>
+        <p>Teknologi uap terbaru untuk hasil setrika lebih rapi dan cepat.</p>
+      </div>
+    </section>
+
+    <section id="galeri">
+      <h2>Galeri Produk</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/300x200?text=Produk+1" alt="Produk 1">
+        <img src="https://via.placeholder.com/300x200?text=Produk+2" alt="Produk 2">
+        <img src="https://via.placeholder.com/300x200?text=Produk+3" alt="Produk 3">
+      </div>
+    </section>
+
+    <section id="pesan">
+      <h2>Form Pemesanan</h2>
+      <form action="#" method="post">
+        <input type="text" name="nama" placeholder="Nama Lengkap" required>
+        <input type="text" name="produk" placeholder="Produk yang ingin dipesan" required>
+        <textarea name="alamat" placeholder="Alamat Pengiriman" rows="3" required></textarea>
+        <input type="tel" name="telepon" placeholder="Nomor Telepon" required>
+        <button type="submit">Kirim Pesanan</button>
+      </form>
+      <a class="wa-button" href="https://wa.me/6281234567890" target="_blank">Pesan via WhatsApp</a>
+    </section>
+
+    <section id="kontak">
+      <h2>Kontak Kami</h2>
+      <p>📍 Alamat: Jl. Elektronik No.88, Sleman, Yogyakarta</p>
+      <p>📞 Telp: 0812-3456-7890</p>
+      <p>📧 Email: dharmabaktielektro@gmail.com</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Toko Dharmabakti. All rights reserved.</p>
+  </footer>
+</body>
+</html>
